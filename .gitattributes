@@ -1,0 +1,5 @@
+README.md export-subst
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.dll binary
+*.so binary

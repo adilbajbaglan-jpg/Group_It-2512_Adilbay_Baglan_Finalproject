@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "books": [
+    {"id":"B01","title":"The Hobbit"},
+    {"id":"B02","title":"Dune"},
+    {"id":"B03","title":"The Little Prince"},
+    {"id":"B04","title":"The Alchemist"}
+  ],
+  "events": [
+    {"action":"issue","book":"B02","date":"2026-10-03","reader":"Ali","policy":"extended"},
+    {"action":"return","book":"B02","date":"2026-10-25"},
+    {"action":"issue","book":"B01","date":"2026-10-29","reader":"Aida","policy":"standard"}
+  ]
+}

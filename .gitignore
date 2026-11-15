@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.obj
+*.lib
+*.exp
+*.lock
+*.tmp
+data/library.json
