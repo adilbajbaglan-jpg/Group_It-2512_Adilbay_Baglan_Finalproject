@@ -63,13 +63,15 @@ The catalogue treats each ID as one physical copy. Version 1 retains lending his
 
 ## Repository and submitted version
 
-- Branch: main
+- Source branch: main
 - Source commit in this exported copy: $Format:%H$
-- Hosted repository URL: pending publication by the student.
+- Hosted repository URL: https://github.com/adilbajbaglan-jpg/Group_It-2512_Adilbay_Baglan_Finalproject
 
-The practice package includes a Git bundle of the source revision. Clone it locally from the extracted archive with `git clone -b main Submission/LibraryDesk.bundle LibraryDesk-checkout`. Open that checkout to continue development. In a Git checkout, use `git rev-parse HEAD` to obtain the exact identifier. Git expands the commit marker in README when creating an export with `git archive HEAD`.
+On 15 November 2026, the hosted repository had no commits. The identifier above belongs to the source snapshot supplied in this archive.
 
-For the assessed version, publish the authorised student version to an accessible repository, record its real URL in README and the project report, commit source changes, then export with `git archive --format=zip -o ../source.zip HEAD`. Enter the same commit from `git rev-parse HEAD` in the final report. Include the updated reports with that exported code in the submission ZIP. Grant the instructor access before the deadline if the repository is private.
+The package includes a Git bundle of the source revision. Clone it locally from the extracted archive with `git clone -b main Submission/LibraryDesk.bundle LibraryDesk-checkout`. Open that checkout to continue development. In a Git checkout, use `git rev-parse HEAD` to obtain the exact identifier. Git expands the commit marker in README when creating an export with `git archive HEAD`.
+
+For the assessed version, commit your source changes, publish the authorised version to the repository listed above, then export that same commit with `git archive --format=zip -o ../source.zip HEAD`. Enter the same commit from `git rev-parse HEAD` in the final report. Include the updated reports with that exported code in the submission ZIP. Grant the instructor access before the deadline if the repository is private.
 
 ## External components
 
